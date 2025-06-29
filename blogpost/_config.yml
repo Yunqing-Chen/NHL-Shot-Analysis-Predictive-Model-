@@ -1,0 +1,26 @@
+# Setup
+title:               IFT6758 Blog
+tagline:             'Milestone 2'
+description:         'A blog showcasing the milestones of the IFT6758 project.'
+url:                 ''
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Yunqing Chen, Yuan Li, Linka Ma, Ganda Rioult
+  url:               ''
+  email:             ''
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Markdown and syntax highlighting
+markdown: kramdown
+highlighter: rouge
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
