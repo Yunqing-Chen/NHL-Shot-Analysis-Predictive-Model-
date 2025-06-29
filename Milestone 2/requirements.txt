@@ -1,0 +1,16 @@
+scikit-learn
+joblib
+wandb
+numpy
+pandas
+matplotlib
+seaborn
+requests
+opencv-python
+tqdm
+lxml
+plotly
+ipywidgets
+ipykernel
+jupyterlab>=3.0.0
+setuptools
