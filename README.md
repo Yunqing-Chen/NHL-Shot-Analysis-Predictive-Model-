@@ -60,12 +60,24 @@ This project follows a structured data science workflow from data acquisition to
 
 ## 📈 Results & Key Findings
 
-The models produced clear and actionable results, with the XGBoost classifier emerging as the top performer.
+After training and evaluating several models, the **XGBoost Classifier** emerged as the champion, demonstrating the strongest predictive performance.
 
-* **Model Performance:** The **XGBoost model achieved the highest AUC score**, indicating its superior ability to distinguish between shots that result in goals and those that do not.
-* **Key Predictive Features:** The model's feature importance scores confirmed that **Shot Distance**, **Shot Angle**, and whether the shot was a **Rebound** were the most significant predictors of a goal.
-* **Actionable Insights:** The final model provides a robust system for assigning an xG value to every shot, enabling deeper analysis of player and team performance beyond surface-level stats.
+#### Champion Model: XGBoost
+With the [selected features](Milestone%202/results/Xgboost/selected_features.png), the final XGBoost model achieved an **AUC score of 0.76**, indicating a strong capability to distinguish between goals and non-goal shots. The detailed performance diagnostics for this model are shown below.
 
+![XGBoost Model Performance](Milestone%202/results/Xgboost/Xgboost_selected_features.png)
+
+---
+
+#### Model Comparison
+To ensure a rigorous evaluation, we compared the performance of several algorithms. The Area Under the Curve (AUC) score for each model is summarized below, confirming that XGBoost was the most effective choice.
+
+| Model | AUC Score |
+| :--- | :---: |
+| [**XGBoost Classifier**](Milestone%202/results/Xgboost/Xgboost_selected_features.png) | **0.76**  |
+| [Decision Tree Classifier](Milestone%202/results/Decision_Tree.png)|0.73|
+| [Gaussian Naive Bayes](Milestone%202/results/Naive%_Bayes.png) |0.68|
+| [Neural network](Milestone%202/results/Neural_Network.png) |0.76|
 ---
 
 ## 🛠️ Tech Stack
